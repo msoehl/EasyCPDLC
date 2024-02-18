@@ -110,12 +110,12 @@ namespace EasyCPDLC
                 ForeColor = parent.controlFrontColor,
                 Font = parent.textFontBold,
                 MaxLength = _maxLength,
-                BorderStyle = BorderStyle.None,
+                BorderStyle = BorderStyle.FixedSingle,
                 Text = _text,
                 CharacterCasing = CharacterCasing.Upper,
                 Top = 10,
                 Padding = new Padding(3, 0, 3, -10),
-                Height = 20,
+                Height = 30,
                 ReadOnly = _readOnly,
                 TextAlign = HorizontalAlignment.Center
             };
